@@ -1,5 +1,5 @@
 #python program to create a calculator.
-#3 steps to build simple calculator
+### steps to build simple calculator
 '''
 1.function for operations
 2.user input
