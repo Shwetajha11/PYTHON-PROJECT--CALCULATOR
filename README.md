@@ -1,45 +1,25 @@
-#python program to create a calculator.
-### steps to build simple calculator
-'''
-1.function for operations
-2.user input
-3.print result
-'''
-###step-1
-#funtion to add two numbers
-def add(number1,number2):
-    return number1+number2
-#function to substract two numbers
-def sub(number1,number2):
-    return number1-number2
-#function to muliplication of two numbers
-def multiply(number1,number2):
-    return number1*number2
-#function to division of two numbers
-def division(number1,number2):
-    return number1/number2
-#function to average of two numbers
-def avg(number1,number2):
-    return (number1+number2)/2
+## Python Calculator Project Summary  
 
-##step-2
-print("please select an opration:\n""1.addition\n""2.substraction\n""3.multiplication\n""4.division\n""5.average\n")
+This Python project is a simple **calculator program** that allows users to perform basic arithmetic operations. It follows a **three-step approach**: defining functions, taking user input, and displaying the result.
 
-select=int(input("select a operation from 1,2,3,4,5"))
+### **Features and Functionality:**  
+1. **Arithmetic Operations:**  
+   - **Addition:** Computes the sum of two numbers.  
+   - **Subtraction:** Finds the difference between two numbers.  
+   - **Multiplication:** Multiplies two numbers.  
+   - **Division:** Divides the first number by the second.  
+   - **Average Calculation:** Computes the average of two numbers.  
 
-number1= int(input("enter first number"))
-number2= int(input("enter second number"))
+2. **User Input Handling:**  
+   - The program prompts the user to select an operation (1-5).  
+   - It then asks for two numbers as input.  
 
-## step-3
-if select==1:
-   print("sum of two numbers is",add(number1,number2))
-elif select==2:
-   print("substraction of two numbers is",sub(number1,number2))
-elif select==3:
-   print("multiplication of two numbers is",multiply(number1,number2))
-elif select==4:
-   print("division of two numbers is",division(number1,number2))
-elif select==5:
-   print("average of two numbers is",avg(number1,number2))
-else:
-   print("inavlid opration! please select again")
+3. **Result Display:**  
+   - Based on the selected operation, the program calls the respective function and prints the result.  
+   - If an invalid operation is chosen, an error message is displayed.  
+
+
+### **Use Case:**  
+This calculator project is useful for beginners learning Python and serves as a foundational project to understand functions, user input handling, and conditional statements.
+
+NOTE- mistakly used "subtraction" instead of "substraction"
