@@ -3,9 +3,9 @@
 '''
 1.function for operations
 2.user input
-3.priint result
+3.print result
 '''
-##step-1
+###step-1
 #funtion to add two numbers
 def add(number1,number2):
     return number1+number2
